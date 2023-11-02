@@ -51,11 +51,12 @@ main {
   list-style-type: none;
 }
 .header__nav-link {
+  font-family: "Anonymous Pro", sans-serif;
   color: #000;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
+  line-height: 20px;
   text-decoration: none;
 }
 .sneakers {
@@ -64,6 +65,7 @@ main {
   padding: 0 10px;
 }
 .sneakers__title {
+  font-family: "Anonymous Pro", sans-serif;
   margin-bottom: 24px;
   font-size: 48px;
 }
@@ -90,11 +92,13 @@ main {
   margin: 32px 24px;
 }
 .sneaker__description {
+  font-family: "Anonymous Pro", sans-serif;
   margin-top: 10px;
   font-size: 20px;
   color:#121723;
 }
 .sneaker__title {
+  font-family: "Anonymous Pro", sans-serif;
   font-size: 26px;
   color:#121723;
 }
@@ -144,6 +148,7 @@ main {
   padding: 21px 0;
 }
 .footer__copyright {
+  font-family: "Anonymous Pro", sans-serif;
   color: #a1a6b4;
   font-size: 16px;
   font-style: normal;
