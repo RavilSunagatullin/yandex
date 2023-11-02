@@ -1,18 +1,35 @@
-.sneaker {
-    max-width: 1180px;
+.one-page-sneaker {
+    max-width: 1160px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 48px;
+    background-color: #fff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
-.sneaker__title {
+.one-page-sneaker img{
+    width: 100%;
 }
-.sneaker__description {
+.one-page-sneaker__title {
 }
-.sneaker__content {
+.one-page-sneaker__description {
 }
-.sneaker__left {
+.one-page-sneaker__content {
+    display: grid;
+    grid-template-columns: 506px 506px;
+    column-gap: 25px;
 }
-.sneaker__right {
+.one-page-sneaker__left {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: start;
 }
-.sneaker__text-content {
+.one-page-sneaker__right {
+}
+.one-page-sneaker__text-content {
+    display: flex;
+    justify-content: space-between;
 }
