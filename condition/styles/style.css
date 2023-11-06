@@ -130,8 +130,8 @@ main {
   gap: 20px;
 }
 .footer__logo {
-  width: 100%;
-  /* height: 23px; */
+  height: 22px;
+  width: fit-content;
 }
 .footer__nav-items {
   display: inline-flex;
@@ -163,6 +163,7 @@ main {
   font-weight: 700;
   line-height: normal;
 }
+/* способ для указания свойства для определенного селектора без классов, айдишников и инлайн стилей */
 main:has(.one-page-sneaker) {
   padding: 32px 16px;
 }
@@ -195,6 +196,7 @@ main:has(.one-page-sneaker) {
   font-weight: 400;
   line-height: 100%;
 }
+/* не стал париться с flex, мне так показалось удобнее */
 .one-page-sneaker__content {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -239,6 +241,7 @@ main:has(.one-page-sneaker) {
   font-weight: 400;
   line-height: normal;
 }
+/* не стал делать много брейкпоитов остановился на 2 */
 @media screen and (max-width: 800px) {
   .one-page-sneaker__content {
     grid-template-columns: 1fr;
