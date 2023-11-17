@@ -242,6 +242,7 @@ main:has(.one-page-sneaker) {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  gap: 15px;
 }
 /* не стал делать много брейкпоитов остановился на 2 */
 @media screen and (max-width: 800px) {
