@@ -1,3 +1,15 @@
+// const studentEmail = "student@yandex.ru";
+// fetch(
+//   `https://api-code.practicum-team.ru/heroes?_where[_or][0][studentEmail]=${studentEmail}&_where[_or][1][studentEmail]=`
+// )
+//   .then((response) => response.json())
+//   .then((data) => {
+//     console.log(data); // В консоли можно исследовать полученные данные
+//     cards = data; // Запишем данные в переменную
+//     // renderCards(cards); // Функция отрисовки полученных данных
+//   })
+//   .catch((error) => console.error("Ошибка:", error));
+
 // P.S
 // Надеюсь много переделывать на следуюшей неделе не будет
 // тк я чет увлекся и наделал лишнего
