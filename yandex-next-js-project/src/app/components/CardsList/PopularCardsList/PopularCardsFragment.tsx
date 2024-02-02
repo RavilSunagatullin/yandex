@@ -1,4 +1,4 @@
-import Style from './CardsList.module.css'
+import Style from '../CardsList.module.css'
 
 export const PopularCardsFragment = () => {
 	return (
